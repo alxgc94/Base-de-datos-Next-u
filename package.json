@@ -1,0 +1,33 @@
+{
+  "name": "codbase",
+  "version": "1.0.0",
+  "description": "proyecto base de datos next_u",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxgc94/base_de_datos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxgc94/base_de_datos/issues"
+  },
+  "homepage": "https://github.com/alxgc94/base_de_datos#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mongoose": "^5.9.27",
+    "route": "^0.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
